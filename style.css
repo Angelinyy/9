@@ -1,0 +1,65 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2em 0;
+    background-image: url(pexels-utopix-pictures-pictures-9755513-12266600.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-style: italic;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: rgb(0, 0, 0);
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+main h2 {
+    color: #333; /* Se precisar de uma cor para o título */
+}
+
+main p {
+    line-height: 1.6;
+}
+
+button {
+    background-color: rgb(196, 185, 140);
+    color: black;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 2em;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    background-color: black;
+    color: rgb(255, 248, 244);
+    text-align: center;
+    padding: 1em 0;
+}
+
